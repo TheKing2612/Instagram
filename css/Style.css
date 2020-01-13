@@ -1,0 +1,69 @@
+Body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofadi One', cursive;
+}
+/**************************************************
+                Contenedor Padre
+**************************************************/
+.main-container {      
+    display: flex;
+    justify-content: center; /*centra horizontalmente*/
+    align-items: center; /*central verticalmente*/
+    height: 100%;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 5, 5);
+    width: 650px;
+    height: 800px;
+}
+.flex-container{
+    background-color: rgb(250, 250, 250);
+    width: 400px;
+    height: 550px;
+    margin-top: 50px;
+}
+/***************************PARTE SUPERIOR***************************/
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.textos{
+    border:1px,yellow ;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left:-55%;
+}
+.config{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/**************************PARTE MEDIA**********************************/
+.imagen{
+    margin-top:5px;
+}
+/**************************BARRA DE OPCIONES************************************/
+.barra-opciones{
+    display: flex;
+    margin-top:5px ;
+    margin-left: 5px;
+    flex-direction: row;
+}
+.guardado{
+    margin-left: 68%;
+}
+/****************************COMENTARIOS**************************************/
+.comentarios{
+    margin-top: 10px ;
+    margin-left: 10px;
+    font-size: medium;
+}
+
